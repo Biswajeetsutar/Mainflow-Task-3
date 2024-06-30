@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Emart</h1>
+            <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul id="menu">
+                <li><a href="#home" id="home-btn">Home</a></li>
+                <li><a href="#products" id="products-btn">Products</a></li>
+                <li><a href="#about" id="about-btn">About Us</a></li>
+                <li><a href="#contact" id="contact-btn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="dynamic-photo">
+                <h2>Welcome to Emart</h2>
+                <img id="dynamicImage" src="images/photo.jpg" alt="Shopping Photo" />
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <p>Discover our wide range of products tailored to meet all your needs.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p align="justify">
+
+                At Emart, we believe that shopping should be a delightful experience. Our mission is to provide you with
+                an unparalleled selection of products at competitive prices, coupled with exceptional customer service.
+                Whether you are looking for the latest fashion trends, cutting-edge electronics, home essentials, or
+                unique gifts, we've got you covered.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any inquiries or support.</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Emart. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
